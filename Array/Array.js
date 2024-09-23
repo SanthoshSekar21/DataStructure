@@ -62,3 +62,4 @@ console.log(result);
 const result1=arr.every(x=>x>10);
 console.log(result1);
 
+console.log(ar.reverse());
