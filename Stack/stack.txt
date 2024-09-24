@@ -1,0 +1,29 @@
+------psuedo code for insertion------------
+push(element)
+{
+    if(stack is full)
+    console.log('stack is full);
+    else
+    top++;
+    stack[top]=element;
+};
+--------------remove element from stack-------------
+     pop()
+     {
+        if(this.isEmpty())
+        return null;
+        retun this.item.pop()
+     }
+
+     -----------to show the top of the stack--------
+     top()
+     {
+        if(this.isEmpty())
+        return null;
+        return this.item[this.item.length-1];
+     }
+     --------------check if the stack is empty or not------------------
+     isEmpty()
+     {
+        retun this.item.length===0;
+     };

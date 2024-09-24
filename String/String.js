@@ -20,3 +20,4 @@ const str7=str6.split(' ');
 console.log(str7);
 console.log(str6.slice(0,5));
 console.log(str6.replace('world','santhosh'));
+

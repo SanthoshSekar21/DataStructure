@@ -1,0 +1,8 @@
+Space complexity refers to the amount of memory used by an algorithm or data structure relative to the size of the input data
+
+How to Calculate Space Complexity
+Space complexity is typically measured using Big-O notation, where:
+
+O(1): Constant space (no additional space needed).
+O(n): Linear space (additional space grows linearly with the input size).
+O(n²): Quadratic space (space grows as the square of the input size), etc.
