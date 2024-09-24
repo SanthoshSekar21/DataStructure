@@ -1,3 +1,8 @@
+// // A stack is a fundamental data structure that follows the Last In, First Out (LIFO) principle
+// meaning that the last element added to the stack is the first one to be removed.
+//  Stacks are widely used in various applications, such as managing function calls,
+//  undo mechanisms in software, and parsing expressions.
+
 //creation of stack  using class
 
 class Stack{
