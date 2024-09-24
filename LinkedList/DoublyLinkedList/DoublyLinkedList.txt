@@ -1,0 +1,16 @@
+A Doubly Linked List (DLL) is a type of linked list in which each node contains three fields:
+
+Data: The value of the node.
+
+Next: A pointer (or reference) to the next node in the sequence.
+
+Previous: A pointer (or reference) to the previous node in the sequence.
+
+This structure allows traversal in both directions—forward and backward—unlike a Singly Linked List, which can only be traversed in one direction.
+
+--------------------Structure of a Doubly Linked List:---------
+Each node has a reference to both its successor (next node) and its predecessor (previous node).
+
+The first node’s previous pointer is null, indicating the start of the list.
+
+The last node’s next pointer is null, indicating the end of the list.
