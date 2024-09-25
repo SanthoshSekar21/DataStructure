@@ -1,0 +1,23 @@
+A graph is a data structure used to represent relationships between objects. It consists of:
+
+-------------Vertices (Nodes):------ 
+These represent the objects.
+Edges: These are the connections (or relationships) between the vertices.
+A graph can be:
+
+----------Directed:-------------
+ In which edges have a direction (one-way connections).
+Undirected: In which edges have no direction (two-way connections).
+Graphs can also have:
+
+Weighted edges: Where each edge has a weight or cost associated with it.
+Unweighted edges: Where all edges are treated equally.
+Graph Representation in JavaScript
+There are several ways to represent a graph in JavaScript:
+
+Adjacency Matrix: A 2D array where each row and column represent a vertex, and the values in the matrix indicate whether an edge exists between the vertices.
+Adjacency List: A more efficient
+ way to store graphs, especially sparse graphs. Each vertex points to a list of adjacent vertices.
+Edge List: A simple list of edges, where each edge connects two vertices.
+For most use cases, adjacency lists are the preferred way of representing graphs due to their efficiency in both space and time complexity.
+
