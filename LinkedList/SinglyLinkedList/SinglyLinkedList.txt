@@ -1,0 +1,27 @@
+A Linked List is a linear data structure where elements, called nodes, are stored 
+in a sequence but are not stored in contiguous memory locations. Each node contains two parts:
+  
+  1.Data: The actual data value the node holds.
+  2.Pointer (Next): A reference (or pointer) to the next node in the sequence.
+
+Unlike arrays, which are of fixed size and stored in contiguous memory locations, 
+linked lists can grow and shrink dynamically, and the elements (nodes) can be scattered 
+throughout memory, with each node pointing to the next one.
+   
+In a singly linked list, each node contains:
+
+Data: The value stored in the node.
+
+Next: A pointer to the next node in the list.
+
+The last node's Next pointer points to null, indicating the end of the list.
+
+Operations on Singly Linked List:
+
+Insertion: Add an element at the head, tail, or any given position in the list.
+
+Deletion: Remove an element from the head, tail, or any given position in the list.
+
+Traversal: Access each element of the list sequentially.
+
+Search: Find a specific element in the list.

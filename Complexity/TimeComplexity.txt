@@ -1,0 +1,19 @@
+Time complexity is determined by counting the number of fundamental operations an algorithm performs as the input size grows.
+ steps to calculate the TimeComplexity
+ 1. Identify the size of the input (n):
+ 2.Count the number of operations:
+ 3.Avoid the Constant
+ 4.avoid the Lower Value
+
+
+ Time Complexity	          Description	                                        Example
+O(1)	           Constant time: the runtime is independent of input size.	   Accessing an element in an array by index
+O(n)	           Linear time: the runtime grows linearly with input size.	   A for loop that iterates over all n elements in an array
+O(n²)	           Quadratic time: the runtime grows proportionally            Nested loops over an array
+                   to the square of input size.
+                                                               
+O(log n)	      Logarithmic time: the runtime grows logarithmically           Binary search
+                   with input size.	                        
+O(n log n)	      Linearithmic time: the runtime grows linearly                	Efficient sorting algorithms like Merge Sort or Quick Sort
+                  times a logarithmic factor.
+                   
