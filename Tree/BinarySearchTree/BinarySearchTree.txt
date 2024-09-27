@@ -1,0 +1,22 @@
+A Binary Search Tree (BST) is a binary tree data structure with the following properties:
+
+Each node has at most two children: A node can have zero, one, or two child nodes.
+Left child nodes are smaller: For every node, the values of all nodes in its left subtree are less than its value.
+Right child nodes are greater: The values of all nodes in its right subtree are greater than its value.
+These properties allow for efficient searching, insertion, and deletion operations, making BSTs ideal for many applications such as searching and sorting.
+
+------------BST Structure--------------
+A BST consists of nodes, where each node has:
+
+Data: The value stored in the node.
+Left child: A pointer/reference to the left subtree (which contains nodes with values less than the current node).
+Right child: A pointer/reference to the right subtree (which contains nodes with values greater than the current node).
+
+
+---------------Binary Search Tree Operations-----------------
+There are several common operations that can be performed on a BST:
+
+Inserting a value: Adding a new node to the tree while maintaining the BST properties.
+Searching for a value: Checking whether a specific value exists in the tree.
+Deleting a value: Removing a node from the tree while maintaining the BST properties.
+Tree traversal: Visiting all nodes in the tree in a specific order (in-order, pre-order, post-order).
