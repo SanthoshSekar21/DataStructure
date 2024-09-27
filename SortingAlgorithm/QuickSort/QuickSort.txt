@@ -1,0 +1,33 @@
+Quick Sort is a highly efficient Divide and Conquer sorting algorithm that works by selecting a "pivot" element from the array 
+and partitioning the other elements into two sub-arrays: 
+elements less than the pivot and elements greater than or equal to the pivot.
+ The sub-arrays are then recursively sorted.
+  The strategy for choosing the pivot element can greatly affect the algorithm's performance.
+
+----------How Quick Sort Works:
+Choose a Pivot:
+
+Pick an element from the array. This element is called the pivot. There are several strategies for selecting the pivot, such as picking the first element, the last element, or a random element.
+Partition the Array:
+
+Rearrange the array so that all elements less than the pivot are moved to its left and all elements greater than or equal to the pivot are moved to its right.
+This step is called partitioning.
+Recursively Apply:
+
+Apply the same process to the left and right sub-arrays created by the partition.
+Recursively sort these sub-arrays using the same steps until the entire array is sorted.
+--------------Time Complexity Analysis:
+Best Case (O(n log n)):
+
+Occurs when the pivot divides the array into two nearly equal halves each time.
+The depth of the recursion tree is log n, and at each level, the array is partitioned in O(n) time.
+Average Case (O(n log n)):
+
+On average, the pivot divides the array into reasonably balanced partitions, leading to O(n log n) performance.
+Worst Case (O(n^2)):
+
+Occurs when the array is already sorted or nearly sorted, and the pivot is always the smallest or largest element.
+This leads to very unbalanced partitions, resulting in n recursive calls and O(n) operations at each level.
+--------------------Space Complexity:
+O(log n) — For the in-place implementation using a single array, the space complexity is due to the recursion stack.
+O(n) — If additional arrays (left and right) are used, the space complexity is higher due to extra storage.
