@@ -1,0 +1,24 @@
+Binary search is an efficient algorithm for finding a target value within a sorted array. 
+It works by repeatedly dividing the search interval in half, 
+which significantly reduces the number of comparisons needed compared to linear search.
+
+-------------------Key Characteristics of Binary Search:-------------
+Time Complexity: O(log n), where n is the number of elements in the array. This is because the search space is halved with each step.
+Space Complexity: O(1) for the iterative version and O(log n) for the recursive version due to the function call stack.
+Requirement: The array must be sorted prior to applying binary search.
+
+---------------How It Works:---------------
+Initialization: Set two pointers, left (start of the array) and right (end of the array).
+
+Calculate Midpoint: Compute the middle index: mid = Math.floor((left + right) / 2).
+Comparison:
+
+If the element at mid equals the target, return mid.
+
+If the target is less than the element at mid, narrow the search to the left half by setting right = mid - 1.
+
+If the target is greater than the element at mid, narrow the search to the right half by setting left = mid + 1.
+
+Repeat: Continue this process until left exceeds right.
+
+Not Found: If the target is not found, return -1.
